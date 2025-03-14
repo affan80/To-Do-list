@@ -9,12 +9,12 @@
 <body>
     <div class="container">
         <div class="to-do-list">
-            <h1>To-Do list</h1>
+            <h1>To-Do list <img src="images/icon.png" alt=""></h1>
             <div class="btn">
                     <input type="text" id="task" placeholder="Enter a task">
-                    <button type="submit" id="submit">Add task</button>
+                    <button type="submit" id="submit" onclick="addTask()">Add task</button>
             </div>
-            <div class="list-container">
+            <div class="listcontainer">
                 <ul id="list">
                     <li>Task 1</li>
                     <li>Task 2</li>
@@ -23,5 +23,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

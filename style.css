@@ -79,7 +79,14 @@
     width: 12px;
     border-radius: 50%;
     background-image: url("images/unchecked.png"); 
-
-
-
 }
+
+#list li.checked{
+    color: #555;
+    text-decoration: line-through;
+     
+}
+#list li.checked::before{
+    background-image: url("images/checked.png");
+}
+
