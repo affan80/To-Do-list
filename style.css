@@ -90,3 +90,18 @@
     background-image: url("images/checked.png");
 }
 
+#list li span {
+    position: absolute;
+    top:  5px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+
+}
+
+#list li span:hover{
+    background-color: #f0f0f0; 
+}
